@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="percyTest">
+    <classes>
+      <class name="percy.test.percyWebURL"/>
+    </classes>
+  </test> <!-- percyTest -->
+</suite> <!-- Failed suite [Suite] -->

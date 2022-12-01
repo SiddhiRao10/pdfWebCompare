@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-01T11:51:56Z" name="Suite" finished-at="2022-12-01T11:52:12Z" duration-ms="16222">
+    <groups>
+    </groups>
+    <test started-at="2022-12-01T11:51:56Z" name="percyTest" finished-at="2022-12-01T11:52:12Z" duration-ms="16222">
+      <class name="percy.test.percyWebURL">
+        <test-method is-config="true" signature="setup()[pri:0, instance:percy.test.percyWebURL@1060b431]" started-at="2022-12-01T17:21:56Z" name="setup" finished-at="2022-12-01T17:22:00Z" duration-ms="4443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="snapshotCompare()[pri:0, instance:percy.test.percyWebURL@1060b431]" started-at="2022-12-01T17:22:00Z" name="snapshotCompare" finished-at="2022-12-01T17:22:12Z" duration-ms="11233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- snapshotCompare -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:percy.test.percyWebURL@1060b431]" started-at="2022-12-01T17:22:12Z" name="tearDown" finished-at="2022-12-01T17:22:12Z" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- percy.test.percyWebURL -->
+    </test> <!-- percyTest -->
+  </suite> <!-- Suite -->
+</testng-results>

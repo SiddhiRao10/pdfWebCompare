@@ -1,20 +1,22 @@
 package percy.test;
 
 import org.testng.annotations.Test;
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.JavascriptExecutor;
 import java.util.Arrays;
-import org.openqa.selenium.WebElement;
+
 public class percyCompareURLs extends BaseTest {
 
 
     @Test
     public void snapshotCompare() {
 
-        driver.get("https://dev-wev.pantheonsite.io/explore-entrepreneurship/");
+        driver.get("https://www.browserstack.com/docs/");
       
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        percy.snapshot("home", Arrays.asList(375,1280));
+        js.executeScript("var element = document.getElementsByTagName('BODY')[0];"+"var parent = element.parentNode;"+"var wrapper = document.createElement('div');"+"wrapper.className='canvasWrapper';"+"parent.replaceChild(wrapper, element);"+"wrapper.appendChild(element);");
+
+        percy.snapshot("Home");
        
     }
 
